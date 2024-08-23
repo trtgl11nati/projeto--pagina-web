@@ -37,6 +37,10 @@ hr {
     /* Código omitido */
   
     .lista-rodapé__item {
+.lista-rodapé {
+  display: none;
+}
+    
       margin: 0.6em 0;
     }
   }
