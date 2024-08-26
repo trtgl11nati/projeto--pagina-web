@@ -15,8 +15,7 @@ hr {
   }
 
   @media screen and (min-width: 1024px) {
-    /* Código omitido */
-  
+    
     .lista-rodapé__item {
       display: flex;
       align-items: center;
@@ -24,8 +23,7 @@ hr {
   }
 
   @media screen and (min-width: 1024px) {
-    /* Código omitido */
-  
+    
     .lista-rodapé__link {
       color: var(--cinza);
       text-decoration: none;
@@ -34,8 +32,7 @@ hr {
   }
 
   @media screen and (min-width: 1024px) {
-    /* Código omitido */
-  
+   
     .lista-rodapé__item {
 .lista-rodapé {
   display: none;
@@ -46,7 +43,6 @@ hr {
   }
 
   @media screen and (min-width: 1024px) {
-    /* Código omitido */
   
     .lista-rodapé__titulo {
       font-size: 14px;
@@ -55,17 +51,26 @@ hr {
   }
 
   @media screen and (min-width: 1024px) {
-    /* Código omitido */
-  
+   
     .rodapé__titulo {
       font-size: 24px;
     }
   }
 
   @media screen and (min-width: 1024px) {
-    /* Código omitido */
-  
+   
     .lista-rodapé {
       display: block;
+    }
+  }
+
+  .lista-rodapé {
+    display: none;
+  }  
+
+  @media screen and (min-width: 1728px) {
+    .lista-rodapé {
+      border-left: 1px solid var(--cinza);
+      padding-left: 1em;
     }
   }
